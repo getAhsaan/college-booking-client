@@ -1,6 +1,7 @@
 import SearchFilter from "../../../components/searchFilter/SearchFilter";
 import CollegeGallery from "../collegeGallery/CollegeGallery";
 import ResearchSection from "../researchSection/ResearchSection";
+import ReviewSection from "./reviewSection/ReviewSection";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <SearchFilter />
       <CollegeGallery />
       <ResearchSection />
+      <ReviewSection />
     </div>
   );
 };

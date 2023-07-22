@@ -1,66 +1,66 @@
 const researchData = [
   {
     id: 1,
-    title: "Title of Research Paper 1",
-    author: "Author 1",
-    year: 2023,
+    title: "The Impact of Artificial Intelligence on Society",
+    author: "John Smith",
+    year: 2022,
     link: "https://example.com/research-paper-1",
   },
   {
     id: 2,
-    title: "Title of Research Paper 2",
-    author: "Author 2",
-    year: 2022,
+    title: "Climate Change and Its Effects on Biodiversity",
+    author: "Emma Johnson",
+    year: 2023,
     link: "https://example.com/research-paper-2",
   },
   {
     id: 3,
-    title: "Title of Research Paper 1",
-    author: "Author 1",
-    year: 2023,
-    link: "https://example.com/research-paper-1",
+    title: "Advancements in Renewable Energy Technologies",
+    author: "Michael Lee",
+    year: 2021,
+    link: "https://example.com/research-paper-3",
   },
   {
     id: 4,
-    title: "Title of Research Paper 2",
-    author: "Author 2",
-    year: 2022,
-    link: "https://example.com/research-paper-2",
+    title: "The Role of Social Media in Shaping Political Discourse",
+    author: "Sophia Williams",
+    year: 2023,
+    link: "https://example.com/research-paper-4",
   },
   {
     id: 5,
-    title: "Title of Research Paper 2",
-    author: "Author 2",
+    title: "Machine Learning Applications in Healthcare",
+    author: "David Brown",
     year: 2022,
-    link: "https://example.com/research-paper-2",
+    link: "https://example.com/research-paper-5",
   },
   {
     id: 6,
-    title: "Title of Research Paper 2",
-    author: "Author 2",
-    year: 2022,
-    link: "https://example.com/research-paper-2",
+    title: "Implications of Cybersecurity Threats in the Digital Age",
+    author: "Olivia Davis",
+    year: 2021,
+    link: "https://example.com/research-paper-6",
   },
   {
     id: 7,
-    title: "Title of Research Paper 2",
-    author: "Author 2",
-    year: 2022,
-    link: "https://example.com/research-paper-2",
+    title: "Economic Impact of the COVID-19 Pandemic",
+    author: "James Anderson",
+    year: 2020,
+    link: "https://example.com/research-paper-7",
   },
   {
     id: 8,
-    title: "Title of Research Paper 2",
-    author: "Author 2",
-    year: 2022,
-    link: "https://example.com/research-paper-2",
+    title: "Gender Representation in STEM Fields",
+    author: "Emily Clark",
+    year: 2023,
+    link: "https://example.com/research-paper-8",
   },
 ];
 
 const ResearchSection = () => {
   return (
     <div>
-      <h2 className="text-center text-2xl font-semibold uppercase mt-4 md:mt-8">
+      <h2 className="text-center text-2xl uppercase font-bold tracking-tight md:text-4xl mt-4 md:mt-8">
         Recommended Research Papers
       </h2>
       <ul className="grid md:grid-cols-2 text-center mt-4 w-[90%] md:w-[80%] mx-auto">
