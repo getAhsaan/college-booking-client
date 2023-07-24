@@ -1,11 +1,11 @@
-
+import CollegeCard from "./collegeCard/CollegeCard";
 
 const Colleges = () => {
-    return (
-        <div>
-            Colleges page 
-        </div>
-    );
+  return (
+    <div>
+      <CollegeCard />
+    </div>
+  );
 };
 
 export default Colleges;
